@@ -1,14 +1,18 @@
 {
   "compilerOptions": {
-    "module": "es2015",
-    "target": "es5",
+    "module": "es2020",
+    "target": "ES2022",
     "moduleResolution": "node",
     "sourceMap": true,
     "declaration": true,
     "noImplicitAny": false,
     "experimentalDecorators": true,
-    "lib": ["dom", "es2015"],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
     "outDir": "./dist",
+    "baseUrl": "./",
     "types": [
       "node"
     ]
